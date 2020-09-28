@@ -7,18 +7,24 @@ Input_waktuBangun = str(input("Sila masukkan waktu BANGUN anda dalam format 24 j
 waktuBangun = datetime.strptime(Input_waktuBangun,'%H:%M')
 
 #Cari tempoh waktu tidur
-if waktuTidur > waktuBangun :
-    tempohMasaTidur = (waktuBangun + timedelta(1)) - waktuTidur
-elif waktuTidur < waktuBangun:
-    tempohMasaTidur = waktuBangun - waktuTidur
-else:
-    tempohMasaTidur = timedelta(1)
+def CariTempohWaktuTidur():
+    if waktuTidur > waktuBangun :
+        return (waktuBangun + timedelta(1)) - waktuTidur
+    elif waktuTidur < waktuBangun:
+        return waktuBangun - waktuTidur
+    else:
+        return timedelta(1)
+
+tempohMasaTidur = CariTempohWaktuTidur()
 
 #Tukarkan masa kepada minit
-tempoh = float(tempohMasaTidur.total_seconds())
-minit = int(tempoh / 60)    
+def TukaranMasa(): 
+    return int(tempohMasaTidur.total_seconds()/60)
+    
+minit = TukaranMasa()
 
 #Tukarkan masa kepada jam dan minit
+jam = 0
 while minit >= 60:
     jam += 1 
     minit -= 60
@@ -34,7 +40,6 @@ def output(minit,jam):
     else:
         return("Cemerlang. Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")         
 
-print()
-print(output(minit,jam))           
+print('\n'+output(minit,jam))           
 
 
