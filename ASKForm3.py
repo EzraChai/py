@@ -31,15 +31,17 @@ while minit >= 60:
 
 #Output 
 def output(minit,jam):
+    Output = str(None)
     if jam < 4:
-        return("Tidak memuaskan. Anda hanya tidur: " + str(jam)+" jam "+str(minit)+" minit")
+        Output = ("Tidak memuaskan.")
     elif jam < 6:
-        return("Memuaskan. Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+        Output = ("Memuaskan. ")
     elif jam < 8:
-        return("Baik. Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+        Output = ("Baik. ")
     else:
-        return("Cemerlang. Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")         
-
+        Output = ("Cemerlang. ")
+    return(Output + "Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+         
 print('\n'+output(minit,jam))           
 
 
