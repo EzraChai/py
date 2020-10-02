@@ -10,6 +10,7 @@ jaw3 = input("Jawapan soalan 3: ")
 jaw4 = input("Jawapan soalan 4: ")
 jaw5 = input("Jawapan soalan 5: ")
 
+
 if jaw1.lower() == "true":
     betul += 1
 
@@ -24,6 +25,7 @@ if jaw4.lower() == "true":
 
 if jaw5.lower() == "false":
     betul += 1
+
 
 if betul == 5:
     print("\nTahniah, anda telah menjawab semua soalan dengan betul.")
