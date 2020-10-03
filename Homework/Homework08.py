@@ -47,6 +47,7 @@ def MasukkanAmaun(amaun,jumlah):
 def cariBaki():
     return float(amaunDiterima-float(jumlah))
 
+
 print("                KEDAI RUNCIT PAKCIK SAIRIN                ")
 jumlah = MasukkanAmaun(amaun,jumlah)
 
