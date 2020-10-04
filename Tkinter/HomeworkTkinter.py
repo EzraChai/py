@@ -17,7 +17,7 @@ def ChangeTime():
     Time2 = None
     Time1 = str(e1.get())
     Time2 = str(e2.get())
-    
+
     waktuTidur = datetime.strptime(Time1, '%H:%M')
     waktuBangun = datetime.strptime(Time2, '%H:%M')
 
@@ -36,20 +36,20 @@ def ChangeTime():
         minit -= 60
 
     if jam == 0:
-        x = ("Tidak memuaskan. Anda telah tidur: " + str(minit) + " minit")
+        output = ("Tidak memuaskan. Anda telah tidur: " + str(minit) + " minit")
     elif jam < 4:
-        x =  ("Tidak memuaskan. ")
+        output =  ("Tidak memuaskan. ")
     elif jam < 6:
-        x =  ("Memuaskan. ")
+        output =  ("Memuaskan. ")
     elif jam < 8:
-        x = ("Baik. ")
+        output = ("Baik. ")
     else:
-        x =  ("Cemerlang. ")
-    output = str(x + "Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+        output =  ("Cemerlang. ")
+    outputPengguna = str(output + "Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
 
     myLabel4 = Label(root,text="  ")
     myLabel4.grid(row=6)
-    myLabel3 = Label(root,text=output)
+    myLabel3 = Label(root,text=outputPengguna)
     myLabel3.grid(row=7)
     myLabel5 = Label(root,text="  ")
     myLabel5.grid(row=8)
