@@ -26,7 +26,7 @@ def ChangeTime():
     elif waktuTidur < waktuBangun:
         tempohMasaTidur =  waktuBangun - waktuTidur
     elif waktuBangun == waktuTidur:
-        tempohMasaTidur = timedelta(1)  
+        tempohMasaTidur = timedelta(0)  
 
     minit = int(tempohMasaTidur.total_seconds()/60)
 
@@ -36,16 +36,16 @@ def ChangeTime():
         minit -= 60
 
     if jam == 0:
-        output = ("Tidak memuaskan. Anda telah tidur: " + str(minit) + " minit")
+        outputPengguna = ("Tidak memuaskan. Anda telah tidur: " + str(minit) + " minit")
     elif jam < 4:
-        output =  ("Tidak memuaskan. ")
+        outputPengguna = ("Tidak memuaskan. Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
     elif jam < 6:
-        output =  ("Memuaskan. ")
+        outputPengguna =  ("Memuaskan. Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
     elif jam < 8:
-        output = ("Baik. ")
+        outputPengguna = ("Baik. Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
     else:
-        output =  ("Cemerlang. ")
-    outputPengguna = str(output + "Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+        outputPengguna =  ("Cemerlang. Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+
 
     myLabel4 = Label(root,text="  ")
     myLabel4.grid(row=6)

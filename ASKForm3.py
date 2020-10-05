@@ -13,7 +13,7 @@ def CariTempohWaktuTidur():
     elif waktuTidur < waktuBangun:
         return waktuBangun - waktuTidur
     else:
-        return timedelta(1)
+        return timedelta(0)
 
 tempohMasaTidur = CariTempohWaktuTidur()
 
