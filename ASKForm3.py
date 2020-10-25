@@ -24,7 +24,7 @@ def CariTempohMasaTidur(waktuTidur,waktuBangun):
 
 #Tukar Tempoh Masa Tidur kepada Jam dan Minit
 def TukaranTempohMasaTidur(jam,minit): 
-    minit =  int(tempohMasaTidur.total_seconds()/60)
+    minit = int(tempohMasaTidur.total_seconds()/60)
     while minit >= 60:
         jam += 1 
         minit -= 60
@@ -33,7 +33,8 @@ def TukaranTempohMasaTidur(jam,minit):
 #Output 
 def output(minit,jam):
     if jam == 0:
-        return ("Tidak memuaskan. Anda telah tidur: " + str(minit) + " minit")
+        print("\nTidak memuaskan. Anda telah tidur: " + str(minit) + " minit")
+        return
     elif jam < 4:
         Output = ("Tidak memuaskan. ")
     elif jam < 6:
@@ -42,12 +43,13 @@ def output(minit,jam):
         Output = ("Baik. ")
     else:
         Output = ("Cemerlang. ")
-    return(Output + "Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+    print("\n" + Output + "Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+    return
 
 #Main
 [waktuTidur,waktuBangun] = InputPengguna()
 tempohMasaTidur = CariTempohMasaTidur(waktuTidur,waktuBangun)     
 [jam,minit] = TukaranTempohMasaTidur(jam,minit)    
-print('\n'+output(jam,minit))           
+output(jam,minit)       
 
 
