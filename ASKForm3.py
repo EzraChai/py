@@ -1,13 +1,20 @@
 from datetime import datetime,timedelta
 
-#Masukkan waktu tidur dan bangun pengguna
-Input_waktuTidur = str(input("Sila masukkan waktu TIDUR anda dalam format 24 jam [00:00]-[23:59]: ")) 
-waktuTidur = datetime.strptime(Input_waktuTidur, '%H:%M')
-Input_waktuBangun = str(input("Sila masukkan waktu BANGUN anda dalam format 24 jam [00:00]-[23:59]: "))
-waktuBangun = datetime.strptime(Input_waktuBangun,'%H:%M')
+waktuTidur = 0
+waktuBangun = 0
+jam = 0
+minit = 0
 
-#Cari tempoh waktu tidur
-def CariTempohWaktuTidur():
+#Pengguna memasukkan Waktu Tidur dan Waktu Bangun
+def InputPengguna():
+    input_waktuTidur = str(input("Sila masukkan waktu TIDUR anda dalam format 24 jam [00:00]-[23:59]: ")) 
+    waktuTidur = datetime.strptime(input_waktuTidur, '%H:%M')
+    input_waktuBangun = str(input("Sila masukkan waktu BANGUN anda dalam format 24 jam [00:00]-[23:59]: "))
+    waktuBangun = datetime.strptime(input_waktuBangun,'%H:%M')
+    return waktuTidur,waktuBangun
+
+#Cari Tempoh Masa Tidur
+def CariTempohMasaTidur(waktuTidur,waktuBangun):
     if waktuTidur > waktuBangun :
         return (waktuBangun + timedelta(1)) - waktuTidur
     elif waktuTidur < waktuBangun:
@@ -15,19 +22,13 @@ def CariTempohWaktuTidur():
     else:
         return timedelta(0)
 
-tempohMasaTidur = CariTempohWaktuTidur()
-
-#Tukarkan masa kepada minit
-def TukaranMasa(): 
-    return int(tempohMasaTidur.total_seconds()/60)
-    
-minit = TukaranMasa()
-
-#Tukarkan masa kepada jam dan minit
-jam = 0
-while minit >= 60:
-    jam += 1 
-    minit -= 60
+#Tukar Tempoh Masa Tidur kepada Jam dan Minit
+def TukaranTempohMasaTidur(jam,minit): 
+    minit =  int(tempohMasaTidur.total_seconds()/60)
+    while minit >= 60:
+        jam += 1 
+        minit -= 60
+    return minit , jam    
 
 #Output 
 def output(minit,jam):
@@ -42,7 +43,11 @@ def output(minit,jam):
     else:
         Output = ("Cemerlang. ")
     return(Output + "Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
-         
-print('\n'+output(minit,jam))           
+
+#Main
+[waktuTidur,waktuBangun] = InputPengguna()
+tempohMasaTidur = CariTempohMasaTidur(waktuTidur,waktuBangun)     
+[jam,minit] = TukaranTempohMasaTidur(jam,minit)    
+print('\n'+output(jam,minit))           
 
 
