@@ -43,7 +43,7 @@ def output(minit,jam):
         Output = ("Baik. ")
     else:
         Output = ("Cemerlang. ")
-    print("\n" + Output + "Anda telah tidur: " + str(jam)+" jam "+str(minit)+" minit")
+    print("\n" + Output + "Anda telah tidur: " + str(jam) + " jam " + str(minit) + " minit")
     return
 
 #Main
