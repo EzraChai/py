@@ -1,5 +1,2 @@
-x = "HelloWorld"
+[x,y] = 23,123
 print(x)
-
-str = "Selamat Datang"
-print(str)

@@ -50,6 +50,4 @@ def output(minit,jam):
 [waktuTidur,waktuBangun] = InputPengguna()
 tempohMasaTidur = CariTempohMasaTidur(waktuTidur,waktuBangun)     
 [jam,minit] = TukaranTempohMasaTidur(jam,minit)    
-output(jam,minit)       
-
-
+output(jam,minit)
