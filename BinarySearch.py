@@ -4,7 +4,7 @@ list.sort()
 n = len(list)
 i = 0
 j = n - 1
-b = 113
+b = 546
 
 print(list)
 
