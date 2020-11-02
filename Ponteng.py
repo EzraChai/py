@@ -1,7 +1,7 @@
 kekerapan = 0
 
-#Memasukkan Ya atau Tidak pengguna pernah ponteng
-#Jika pengguna memasukki Input yang salah, system akan mengulangi sekali lagi
+# Pengguna memasukkan Ya atau Tidak pernah ponteng
+# Jika pengguna memasukki Input yang salah, system akan mengulangi sekali lagi
 def Ponteng():
     flag = str(input("Adakah anda pernah ponteng sekolah? [Ya / Tidak]: "))
 
@@ -10,7 +10,7 @@ def Ponteng():
         flag = str(input("Adakah anda pernah ponteng sekolah? [Ya / Tidak]: "))
     return flag
 
-#Proses dan Output
+# Proses dan Output
 def Proses(flag):
     if flag.lower() == "ya":
         kekerapan = int(input("Masukkan bilangan hari anda telah ponteng: "))
@@ -25,7 +25,7 @@ def Proses(flag):
     else:
         return("\nAnda seorang pelajar yang berdisiplin.")    
       
-#Main
+# Main
 flag = Ponteng()
 print(Proses(flag))      
 print("\nTerima kasih atas kerjasama anda")              
