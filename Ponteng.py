@@ -1,21 +1,31 @@
 kekerapan = 0
 
-flag = str(input("Adakah anda pernah ponteng sekolah? [Ya / Tidak]: "))
-
-while (flag.lower() not in ["ya","tidak"]):
+#Memasukkan Ya atau Tidak pengguna pernah ponteng
+#Jika pengguna memasukki Input yang salah, system akan mengulangi sekali lagi
+def Ponteng():
     flag = str(input("Adakah anda pernah ponteng sekolah? [Ya / Tidak]: "))
-else:
+
+    while (flag.lower() not in ["ya","tidak"]):
+        print("Sila hanya memasuki [Ya atau Tidak].")
+        flag = str(input("Adakah anda pernah ponteng sekolah? [Ya / Tidak]: "))
+    return flag
+
+#Proses dan Output
+def Proses(flag):
     if flag.lower() == "ya":
         kekerapan = int(input("Masukkan bilangan hari anda telah ponteng: "))
         if kekerapan <= 1:
-            print("\nAnda akan dikenakan hukuman dengan dirotan sekali.") 
+            return("\nAnda akan dikenakan hukuman dengan dirotan sekali.") 
         elif kekerapan <= 3:
-            print("\nAnda akan dikenakan hukuman dengan dirotan dua kali.") 
+            return("\nAnda akan dikenakan hukuman dengan dirotan dua kali.") 
         elif kekerapan <= 5:
-            print("\nAnda akan dikenakan hukuman dengan digantung sekolah selama seminggu.")
+            return("\nAnda akan dikenakan hukuman dengan digantung sekolah selama seminggu.")
         else:
-            print("\nAnda akan dikenakan hukuman dengan dengan dibuang sekolah.")
+            return("\nAnda akan dikenakan hukuman dengan dengan dibuang sekolah.")
     else:
-        print("\nAnda seorang pelajar yang berdisiplin.")    
+        return("\nAnda seorang pelajar yang berdisiplin.")    
       
+#Main
+flag = Ponteng()
+print(Proses(flag))      
 print("\nTerima kasih atas kerjasama anda")              
