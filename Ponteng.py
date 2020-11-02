@@ -14,6 +14,9 @@ def Ponteng():
 def Proses(flag):
     if flag.lower() == "ya":
         kekerapan = int(input("Masukkan bilangan hari anda telah ponteng: "))
+        while kekerapan < 0:
+            print("Tolong masukkan bilangan hari yang betul.")
+            kekerapan = int(input("Masukkan bilangan hari anda telah ponteng: "))
         if kekerapan <= 1:
             return("\nAnda akan dikenakan hukuman dengan dirotan sekali.") 
         elif kekerapan <= 3:
