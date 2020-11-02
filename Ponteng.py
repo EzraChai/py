@@ -18,5 +18,4 @@ else:
     else:
         print("\nAnda seorang pelajar yang berdisiplin.")    
       
-    
 print("\nTerima kasih atas kerjasama anda")              
