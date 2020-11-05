@@ -4,7 +4,6 @@ waktuTidur = 0
 waktuBangun = 0
 jam = 0
 minit = 0
-salah = 0
 
 #Pengguna memasukkan Waktu Tidur dan Waktu Bangun
 #Jika Pengguna telah memasukki format Waktu Tidur dan Waktu Bangun yang salah,pengguna perlu memasukki sekali lagi
