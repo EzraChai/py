@@ -7,6 +7,7 @@ minit = 0
 salah = 0
 
 #Pengguna memasukkan Waktu Tidur dan Waktu Bangun
+#Jika Pengguna telah memasukki format waktu Tidur dan Waktu Bangun yang salah,pengguna perlu memasukki sekali lagi
 def InputPengguna(waktuTidur,waktuBangun):
     while waktuTidur == 0:
         try:
