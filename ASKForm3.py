@@ -4,13 +4,26 @@ waktuTidur = 0
 waktuBangun = 0
 jam = 0
 minit = 0
+salah = 0
 
 #Pengguna memasukkan Waktu Tidur dan Waktu Bangun
-def InputPengguna():
-    input_waktuTidur = str(input("Sila masukkan waktu TIDUR anda dalam format 24 jam [00:00]-[23:59]: ")) 
-    waktuTidur = datetime.strptime(input_waktuTidur, '%H:%M')
-    input_waktuBangun = str(input("Sila masukkan waktu BANGUN anda dalam format 24 jam [00:00]-[23:59]: "))
-    waktuBangun = datetime.strptime(input_waktuBangun,'%H:%M')
+def InputPengguna(waktuTidur,waktuBangun):
+    while waktuTidur == 0:
+        try:
+            input_waktuTidur = str(input("Sila masukkan waktu TIDUR anda dalam format 24 jam [00:00]-[23:59]: ")) 
+            waktuTidur = datetime.strptime(input_waktuTidur, '%H:%M')
+        except:
+            print("Oops! Anda telah memasukki format jam yang salah.")
+            print("Sila masukkan sekali lagi.")
+            print("-------------------------------------------------------\n")
+    while waktuBangun == 0:        
+        try:
+            input_waktuBangun = str(input("Sila masukkan waktu BANGUN anda dalam format 24 jam [00:00]-[23:59]: "))
+            waktuBangun = datetime.strptime(input_waktuBangun,'%H:%M')
+        except:
+            print("Oops! Anda telah memasukki format jam yang salah.")
+            print("Sila masukkan sekali lagi.")
+            print("-------------------------------------------------------\n")    
     return waktuTidur,waktuBangun
 
 #Cari Tempoh Masa Tidur
@@ -28,7 +41,7 @@ def TukaranTempohMasaTidur(jam,minit):
     while minit >= 60:
         jam += 1 
         minit -= 60
-    return minit , jam    
+    return minit, jam    
 
 #Output 
 def output(minit,jam):
@@ -47,7 +60,7 @@ def output(minit,jam):
     return
 
 #Main
-[waktuTidur,waktuBangun] = InputPengguna()
+[waktuTidur,waktuBangun] = InputPengguna(waktuTidur,waktuBangun)
 tempohMasaTidur = CariTempohMasaTidur(waktuTidur,waktuBangun)     
 [jam,minit] = TukaranTempohMasaTidur(jam,minit)    
 output(jam,minit)
