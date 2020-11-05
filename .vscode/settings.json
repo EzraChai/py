@@ -1,4 +1,5 @@
 {
     "files.autoSave": "onFocusChange",
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "python.pythonPath": "C:\\Users\\juanz\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
 }
