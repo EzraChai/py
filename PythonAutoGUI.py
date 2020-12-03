@@ -1,20 +1,22 @@
-import pyautogui,time,keyboard
-word="Hello"
+import pyperclip,pyautogui,time,keyboard
 
-print("Auto Typing Hello System is starting in ")
+word=" ♥我爱你♥ "
+
+print("Auto Typing [heart]I love you[heart] System is starting in ")
 
 for x in range (1,6):
     print(x)
     time.sleep(1)
 
-print("\nPress backspace for 1 second to stop the System.")
-
 def typeHello():
-        pyautogui.typewrite(word)
-        pyautogui.press("enter")
-        time.sleep(1)
+    i = 0
+    while i < 521:
+        pyautogui.typewrite(str(i))
+        pyperclip.copy(word)
+        pyautogui.hotkey('ctrl', 'v')
+        pyautogui.hotkey('shift', 'enter')
+        i += 1
+        time.sleep(0.01)
 
-while 1:
-    if keyboard.is_pressed("backspace"):
-        exit(0)
-    typeHello()
+
+typeHello()

@@ -4,4 +4,4 @@ options = EdgeOptions()
 options.use_chromium = True 
 driver = Edge(options=options)
 
-driver.get("https://facebook.com/")
+driver.get("https://facebook.com/ ")

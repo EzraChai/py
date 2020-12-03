@@ -21,4 +21,7 @@ sleep(0.1)
 password_box = driver.find_element_by_id("pass")
 password_box.send_keys(pwd)
 print("Password entered")
-sleep(0.3)
+sleep(0.5)
+
+enter_box = driver.find_element_by_id("u_0_b").click()
+print("Login pressed") 
