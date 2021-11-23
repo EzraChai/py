@@ -1,22 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T14:28:58.813Z" agent="5.0 (X11)" etag="rhewj6x2wgoCSFhO-3fq" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-23T14:37:07.434Z" agent="5.0 (X11)" etag="D34gMYpDf35QMDdUbvRK" version="15.8.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="2BhynT_DfsQ55NkdQ-wV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2BhynT_DfsQ55NkdQ-wV-0" target="2BhynT_DfsQ55NkdQ-wV-1" edge="1">
+        <mxCell id="qsoDnjDD26J5uIRlczHR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2BhynT_DfsQ55NkdQ-wV-0" target="qsoDnjDD26J5uIRlczHR-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qsoDnjDD26J5uIRlczHR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2BhynT_DfsQ55NkdQ-wV-0" target="qsoDnjDD26J5uIRlczHR-0">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="605" y="160" />
-              <mxPoint x="276" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2BhynT_DfsQ55NkdQ-wV-0" value="MULA" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="545" y="110" width="120" height="40" as="geometry" />
+          <mxGeometry x="545" y="30" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2BhynT_DfsQ55NkdQ-wV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2BhynT_DfsQ55NkdQ-wV-1" target="2BhynT_DfsQ55NkdQ-wV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -149,8 +141,11 @@
         <mxCell id="RrhzTNJWd6w1T5RuUDGI-18" value="&lt;div&gt;Tidak&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="475" y="870" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="qsoDnjDD26J5uIRlczHR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qsoDnjDD26J5uIRlczHR-0" target="2BhynT_DfsQ55NkdQ-wV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qsoDnjDD26J5uIRlczHR-0" value="OUTPUT Keputusan semua peserta mengikut pertandingan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="180" width="232.5" height="50" as="geometry" />
+          <mxGeometry x="488.75" y="90" width="232.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
