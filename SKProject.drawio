@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T08:19:11.876Z" agent="5.0 (X11)" etag="Uwf4MUb5fT4R-FLdvESI" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-24T08:23:09.456Z" agent="5.0 (X11)" etag="7OiCae6e4plThkRcMJFd" version="15.8.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -162,7 +162,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9Ln3dgr_W9P-pEfMfMDV-9" value="OUTPUT Menu Pertandingan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="380" y="390" width="120" height="50" as="geometry" />
+          <mxGeometry x="390" y="390" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7wCm2xD4ghH895c7AWyu-2" value="Ya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="260" width="60" height="30" as="geometry" />
