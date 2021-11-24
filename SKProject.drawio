@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T08:04:14.822Z" agent="5.0 (X11)" etag="TULbKObmrhrJQcm0A3LD" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-24T08:04:53.848Z" agent="5.0 (X11)" etag="qxDO5QdFTAWLH8sgQM9u" version="15.8.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -133,14 +133,10 @@
         <mxCell id="qsoDnjDD26J5uIRlczHR-0" value="OUTPUT Keputusan semua peserta mengikut pertandingan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="488.75" y="90" width="232.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9Ln3dgr_W9P-pEfMfMDV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9Ln3dgr_W9P-pEfMfMDV-0" target="9Ln3dgr_W9P-pEfMfMDV-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9Ln3dgr_W9P-pEfMfMDV-0" value="Urus Setia?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="370" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9Ln3dgr_W9P-pEfMfMDV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9Ln3dgr_W9P-pEfMfMDV-1" target="9Ln3dgr_W9P-pEfMfMDV-0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9Ln3dgr_W9P-pEfMfMDV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9Ln3dgr_W9P-pEfMfMDV-1" target="9Ln3dgr_W9P-pEfMfMDV-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9Ln3dgr_W9P-pEfMfMDV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9Ln3dgr_W9P-pEfMfMDV-1" target="9Ln3dgr_W9P-pEfMfMDV-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -161,6 +157,12 @@
         </mxCell>
         <mxCell id="9Ln3dgr_W9P-pEfMfMDV-9" value="OUTPUT Menu Pertandingan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="380" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7wCm2xD4ghH895c7AWyu-2" value="Ya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7wCm2xD4ghH895c7AWyu-3" value="&lt;div&gt;Tidak&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="340" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
