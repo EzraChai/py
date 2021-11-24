@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T08:28:42.531Z" agent="5.0 (X11)" etag="wSai-HZFNQi98NK5FCwP" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-24T08:30:00.795Z" agent="5.0 (X11)" etag="KaOH5CY4KxMDJbakyRb4" version="15.8.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -101,8 +101,20 @@
         <mxCell id="XJaJeUywvs3xGksn9VUW-14" value="Peserta wujud?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="461.25" y="600" width="155" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XJaJeUywvs3xGksn9VUW-16" value="OUTPUT peserta tidak dapat dicari" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="310" y="670" width="143.75" height="60" as="geometry" />
+        <mxCell id="7wCm2xD4ghH895c7AWyu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XJaJeUywvs3xGksn9VUW-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="403" y="765" />
+              <mxPoint x="310" y="765" />
+              <mxPoint x="310" y="550" />
+              <mxPoint x="370" y="550" />
+              <mxPoint x="370" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJaJeUywvs3xGksn9VUW-16" value="&lt;div&gt;&amp;nbsp;OUTPUT peserta tidak&lt;/div&gt;&lt;div&gt; dapat dicari&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="327.5" y="685" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XJaJeUywvs3xGksn9VUW-18" value="&lt;div&gt;Tidak&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="428.75" y="590" width="60" height="30" as="geometry" />
