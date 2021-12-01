@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T01:54:10.653Z" agent="5.0 (X11)" etag="j3RpNNDcihJ3z3G4OqnK" version="15.8.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-01T01:54:22.738Z" agent="5.0 (X11)" etag="Xyguq_aAzx39v6HJDwbS" version="15.8.7" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -302,7 +302,7 @@
           <mxGeometry x="342.02" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eJuQvx9KX0Evx8GOAH2Y-17" value="PUSINGAN" style="rounded=0;whiteSpace=wrap;html=1;" parent="juJgoHJ59R_boZb0UTi5-1" vertex="1">
-          <mxGeometry x="722.5" y="635" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="635" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eJuQvx9KX0Evx8GOAH2Y-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="juJgoHJ59R_boZb0UTi5-1" source="eJuQvx9KX0Evx8GOAH2Y-13" target="eJuQvx9KX0Evx8GOAH2Y-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -356,7 +356,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eJuQvx9KX0Evx8GOAH2Y-33" value="&lt;div&gt;mempunyai&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="juJgoHJ59R_boZb0UTi5-1" vertex="1">
-          <mxGeometry x="702.5" y="540" width="120" height="70" as="geometry" />
+          <mxGeometry x="710" y="540" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eJuQvx9KX0Evx8GOAH2Y-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="juJgoHJ59R_boZb0UTi5-1" source="eJuQvx9KX0Evx8GOAH2Y-17" target="eJuQvx9KX0Evx8GOAH2Y-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
